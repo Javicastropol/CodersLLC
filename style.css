@@ -1,0 +1,79 @@
+  header {
+    background-color: #ff7f99;
+    width: auto;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    padding-left: 50px;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 750;
+    font-size: 200%;
+    color: white;
+    text-decoration: none;
+}
+
+.logo a p {
+    color: #fff27e;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 60px;
+}
+.portada {
+    justify-content: space-between;
+    display: flex ;
+    flex-direction: row;
+    align-items: center; 
+}
+main .container {
+    padding-left: 5%;
+    width: 50%;
+    height: 100%;
+}
+
+.container h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ff7f99;
+}
+
+.team {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    background-color: #ff7f99;
+    height: auto;
+    padding-top: 3%;
+}
+
+.team .dev .icon {
+    width: 30px; 
+    height: auto;
+}
+
+.dev {
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
